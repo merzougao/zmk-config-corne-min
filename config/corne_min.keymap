@@ -91,7 +91,7 @@
             bindings = <
 &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans    &mkp LCLK  &mmv MOVE_DOWN  &mmv MOVE_UP  &caps_word  &trans  &trans
 &trans  &trans             &trans           &trans                &trans                &trans    &kp LEFT   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT   &trans  &trans
-&trans  &trans             &trans           &mmv MOVE_LEFT        &mmv MOVE_RIGHT       &trans    &trans     &trans          &trans        &trans      &trans  &trans
+&trans  &trans             &trans           &mmv MOVE_LEFT        &mmv MOVE_RIGHT       &trans    &trans     &trans          &trans        &trans      &trans  &bootloader
                                             &trans                &trans                &trans    &trans     &trans          &trans
             >;
         };
