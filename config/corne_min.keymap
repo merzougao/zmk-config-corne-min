@@ -76,7 +76,7 @@
             bindings = <
 &none  &kp GRAVE   &kp TAB        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none     &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSPACE  &kp ASTRK      &none
 &none  &skq LCTRL  &skq LEFT_ALT  &skq LEFT_SHIFT   &skq LEFT_GUI      &none     &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp BACKSLASH  &none
-&none  &none       &none          &sl 4             &mo 3              &none     &none   &kp LBRC              &kp RIGHT_BRACE        &kp UNDER      &kp DOLLAR     &none
+&none  &none       &none          &sl 4             &sl 3              &none     &none   &kp LBRC              &kp RIGHT_BRACE        &kp UNDER      &kp DOLLAR     &none
                                   &trans            &trans             &trans    &trans  &trans                &trans
             >;
         };
