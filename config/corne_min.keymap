@@ -74,9 +74,9 @@
             //                |      | held |     |   | ESC | SPC |
 
             bindings = <
-&none  &kp GRAVE   &kp TAB        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none     &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSPACE  &kp ASTRK      &none
-&none  &skq LCTRL  &skq LEFT_ALT  &skq LEFT_SHIFT   &skq LEFT_GUI      &none     &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp BACKSLASH  &none
-&none  &none       &none          &sl 4             &sl 3              &none     &none   &kp LBRC              &kp RIGHT_BRACE        &kp UNDER      &kp DOLLAR     &none
+&none  &kp GRAVE   &kp TAB        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSPACE  &kp ASTRK      &none
+&none  &skq LCTRL  &skq LEFT_ALT  &skq LEFT_SHIFT   &skq LEFT_GUI      &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp BACKSLASH  &none
+&none  &none       &none          &sl 4             &sl 3              &trans    &trans  &kp LBRC              &kp RIGHT_BRACE        &kp UNDER      &kp DOLLAR     &none
                                   &trans            &trans             &trans    &trans  &trans                &trans
             >;
         };
@@ -119,9 +119,9 @@
             //             |     |     |     |   |     |     |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &none   &kp AT     &kp EXCL     &kp LESS_THAN  &kp GREATER_THAN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none   &kp EQUAL  &kp AMPS     &kp PLUS       &kp TILDE         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &none   &kp POUND  &kp PERCENT  &kp CARET      &kp PIPE          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp AT     &kp EXCL     &kp LESS_THAN  &kp GREATER_THAN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp EQUAL  &kp AMPS     &kp PLUS       &kp TILDE         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp POUND  &kp PERCENT  &kp CARET      &kp PIPE          &trans
                         &trans  &trans  &trans    &trans  &trans     &trans
             >;
         };
